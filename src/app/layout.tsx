@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import SatoshiRegular from "next/font/local";
 
 import "./globals.css";
+import { Container } from "@/components/container";
 
 const satoshi = SatoshiRegular({
   src: "../../public/fonts/satoshi/Satoshi-Regular.otf",
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${satoshi.className}`}>{children}</body>
+      <Container>
+        <body className={`${satoshi.className}`}>{children}</body>
+      </Container>
     </html>
   );
 }
