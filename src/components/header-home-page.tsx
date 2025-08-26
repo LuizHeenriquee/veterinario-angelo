@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 export function HeaderHomePage() {
   return (
     <div className="flex items-center justify-between pt-4">
-      <Image src={Logo} alt="Angelo T.C. Logo" width={200} height={200} />
+      <Image src={Logo} alt="Angelo T.C. Logo" width={180} height={180} />
       <Link href="#">
         <Button>
           <Image src={WhatsAppIcon} alt="WhatsApp Icon" width={15} />
