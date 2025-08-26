@@ -3,9 +3,9 @@ import { HeroSection } from "@/components/hero-section";
 
 export function HomePageView() {
   return (
-    <>
+    <div className="flex flex-col gap-10">
       <HeaderHomePage />
       <HeroSection />
-    </>
+    </div>
   );
 }
