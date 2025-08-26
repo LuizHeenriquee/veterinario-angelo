@@ -1,9 +1,10 @@
 import Image from "next/image";
-import LogoSolo from "../assets/logo-solo-black-red.png";
-import WhatsAppIcon from "../assets/icons/wpp-icon.svg";
-import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
+import LogoSolo from "../../assets/logo-solo-black-red.png";
+import WhatsAppIcon from "../../assets/icons/wpp-icon.svg";
+
 import Link from "next/link";
+import { Button } from "../ui/button";
+import { Badge } from "../ui/badge";
 
 export function HeroSection() {
   return (
