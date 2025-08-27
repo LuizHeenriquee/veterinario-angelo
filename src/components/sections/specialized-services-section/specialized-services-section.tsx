@@ -18,7 +18,7 @@ export function SpecializedServicesSection() {
       icon: ChartColumnIncreasing,
       title: "Planilhas de Controle",
       description:
-        "Desenvolvimento de sistemas de monitoramento e controle de qualidade para processos alimentares.",
+        "Desenvolvimento de sistemas de monitoramento e controle de qualidade para processos de manipulação de alimentos.",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ export function SpecializedServicesSection() {
       icon: GraduationCap,
       title: "Treinamentos",
       description:
-        "Capacitação de equipes em boas práticas de fabricação e segurança alimentar.",
+        "Capacitação de equipes e manipuladores em boas práticas de fabricação em segurança de alimentos.",
     },
   ];
 
@@ -42,7 +42,7 @@ export function SpecializedServicesSection() {
         <h2 className="text-3xl font-bold">Serviços Especializados</h2>
         <p className="text-center text-lg">
           Soluções completas para garantir a conformidade e qualidade dos seus
-          produtos alimentícios
+          produtos
         </p>
       </div>
       <div className="flex flex-col gap-4 items-center lg:justify-between lg:flex-row">

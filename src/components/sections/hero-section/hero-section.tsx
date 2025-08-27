@@ -14,9 +14,14 @@ export function HeroSection() {
           <Badge variant="outline" className="p-3">
             <Image src={LogoSolo} alt="Logo Solo - Angelo T.C." width={30} />
           </Badge>
-          <Badge variant="secondary" className="text-primary-foreground">
-            Médico Veterinário Especialista
-          </Badge>
+          <div className="flex flex-col gap-4 items-center lg:flex-row">
+            <Badge variant="secondary" className="text-primary-foreground">
+              Médico Veterinário | SC-14906
+            </Badge>
+            <Badge variant="secondary" className="text-primary-foreground">
+              Responsável Técnico
+            </Badge>
+          </div>
         </div>
         <div className="flex flex-col items-center gap-4">
           <h1 className="flex flex-col items-center font-extrabold text-4xl lg:text-7xl">
@@ -24,9 +29,9 @@ export function HeroSection() {
             <span className="block text-primary">com Excelência</span>
           </h1>
           <p className="text-center text-xl lg:text-2xl">
-            Garantindo a segurança alimentar através de serviços especializados
-            em documentação, controle de qualidade e treinamentos para sua
-            empresa.
+            Garantindo a segurança de alimentos através de serviços
+            especializados em documentação, controle de qualidade e treinamentos
+            para sua empresa.
           </p>
           <div className="flex gap-4">
             <Link href="#">
