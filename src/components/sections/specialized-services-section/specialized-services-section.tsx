@@ -49,7 +49,7 @@ export function SpecializedServicesSection() {
             produtos
           </p>
         </div>
-        <div className="flex flex-col gap-4 items-center lg:justify-between lg:flex-row">
+        <div className="flex flex-col gap-4 items-center lg:flex-row">
           {cards.map((card) => (
             <ServicesCard
               key={card.id}
