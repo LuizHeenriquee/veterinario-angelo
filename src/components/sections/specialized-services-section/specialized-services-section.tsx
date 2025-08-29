@@ -3,6 +3,7 @@ import { ServicesCard } from "./components/services-card";
 import { ChartColumnIncreasing } from "lucide-react";
 import { Tag } from "lucide-react";
 import { GraduationCap } from "lucide-react";
+import { Container } from "@/components/container";
 
 export function SpecializedServicesSection() {
   const cards = [
@@ -37,24 +38,26 @@ export function SpecializedServicesSection() {
   ];
 
   return (
-    <div className="flex flex-col gap-4">
-      <div className="flex flex-col items-center gap-4">
-        <h2 className="text-3xl font-bold">Serviços Especializados</h2>
-        <p className="text-center text-lg">
-          Soluções completas para garantir a conformidade e qualidade dos seus
-          produtos
-        </p>
+    <Container>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-col items-center gap-4">
+          <h2 className="text-3xl font-bold">Serviços Especializados</h2>
+          <p className="text-center text-lg">
+            Soluções completas para garantir a conformidade e qualidade dos seus
+            produtos
+          </p>
+        </div>
+        <div className="flex flex-col gap-4 items-center lg:justify-between lg:flex-row">
+          {cards.map((card) => (
+            <ServicesCard
+              key={card.id}
+              icon={card.icon}
+              title={card.title}
+              description={card.description}
+            />
+          ))}
+        </div>
       </div>
-      <div className="flex flex-col gap-4 items-center lg:justify-between lg:flex-row">
-        {cards.map((card) => (
-          <ServicesCard
-            key={card.id}
-            icon={card.icon}
-            title={card.title}
-            description={card.description}
-          />
-        ))}
-      </div>
-    </div>
+    </Container>
   );
 }

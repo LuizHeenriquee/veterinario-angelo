@@ -20,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <Container>
-        <body className={`${satoshi.className}`}>{children}</body>
-      </Container>
+      <body className={`${satoshi.className}`}>{children}</body>
     </html>
   );
 }
