@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function CallToActionSection() {
   return (
-    <div className="flex flex-col items-center gap-4 bg-primary text-primary-foreground p-4 lg:pt-14 lg:pb-14">
+    <div className="flex flex-col items-center gap-4 bg-primary text-primary-foreground p-4 pt-7 pb-7 lg:pt-14 lg:pb-14">
       <div className="flex flex-col items-center gap-4">
         <h2 className="text-center text-2xl font-bold lg:text-4xl">
           Pronto para garantir a segurança dos seus alimentos?
