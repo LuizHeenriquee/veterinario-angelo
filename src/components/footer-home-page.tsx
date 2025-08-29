@@ -12,7 +12,7 @@ export function FooterHomePage() {
           <h3 className="text-2xl font-bold">Dr. Angelo Tamanini Cipriani</h3>
           <p className="text-xl">
             Médico Veterinário especialista em inspeção de alimentos, dedicado à
-            segurança de alimentos e conformidade regulatória.
+            qualidade e conformidade regulatória.
           </p>
         </div>
         <div className="flex flex-col gap-2 lg:w-1/2 lg:ml-10">
