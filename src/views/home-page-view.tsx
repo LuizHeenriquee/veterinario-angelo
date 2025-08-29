@@ -1,6 +1,6 @@
 import { HeaderHomePage } from "@/components/header-home-page";
 import { HeroSection } from "@/components/sections/hero-section/hero-section";
-import { CallToAction } from "@/components/sections/call-to-action/call-to-action";
+import { CallToActionSection } from "@/components/sections/call-to-action-section/call-to-action-section";
 import { SpecializedServicesSection } from "@/components/sections/specialized-services-section/specialized-services-section";
 
 export function HomePageView() {
@@ -9,7 +9,7 @@ export function HomePageView() {
       <HeaderHomePage />
       <HeroSection />
       <SpecializedServicesSection />
-      <CallToAction />
+      <CallToActionSection />
     </div>
   );
 }

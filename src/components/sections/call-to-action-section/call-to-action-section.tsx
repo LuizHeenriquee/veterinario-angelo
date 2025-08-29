@@ -3,7 +3,7 @@ import Link from "next/link";
 import WhatsAppRedIcon from "../../../assets/wpp-logo-red.png";
 import Image from "next/image";
 
-export function CallToAction() {
+export function CallToActionSection() {
   return (
     <div className="flex flex-col items-center gap-4 bg-primary text-primary-foreground p-4">
       <div className="flex flex-col items-center gap-4">
