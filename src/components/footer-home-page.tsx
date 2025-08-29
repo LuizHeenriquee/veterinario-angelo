@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { Container } from "./container";
 
 export function FooterHomePage() {
@@ -34,10 +34,6 @@ export function FooterHomePage() {
             <li className="flex items-center gap-2">
               <Mail className="text-primary" width={22} />
               <p className="text-xl">veterinario.angelo@gmail.com</p>
-            </li>
-            <li className="flex items-center gap-2">
-              <MapPin className="text-primary" width={22} />
-              <p className="text-xl">Brusque, SC</p>
             </li>
           </ul>
         </div>

@@ -48,9 +48,11 @@ export function HeroSection() {
                   Falar no WhatsApp
                 </Button>
               </Link>
-              <Button variant="outline" className="hover:cursor-pointer">
-                Conhecer Serviços
-              </Button>
+              <Link href="/conhecer-servicos">
+                <Button variant="outline" className="hover:cursor-pointer">
+                  Conhecer Serviços
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
