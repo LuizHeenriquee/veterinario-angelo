@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function CallToActionSection() {
   return (
-    <div className="flex flex-col items-center gap-4 bg-primary text-primary-foreground p-4">
+    <div className="flex flex-col items-center gap-4 bg-primary text-primary-foreground p-4 lg:pt-14 lg:pb-14">
       <div className="flex flex-col items-center gap-4">
         <h2 className="text-center text-2xl font-bold lg:text-4xl">
           Pronto para garantir a segurança dos seus alimentos?
@@ -16,7 +16,10 @@ export function CallToActionSection() {
         </p>
       </div>
       <Link href="#">
-        <Button className="bg-primary-foreground text-primary">
+        <Button
+          variant="outline"
+          className="text-primary hover:text-primary hover:cursor-pointer"
+        >
           <Image src={WhatsAppRedIcon} alt="WhatsApp Icon" width={15} />
           Receber mais informações no WhatsApp
         </Button>

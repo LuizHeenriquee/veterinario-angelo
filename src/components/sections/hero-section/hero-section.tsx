@@ -17,10 +17,16 @@ export function HeroSection() {
               <Image src={LogoSolo} alt="Logo Solo - Angelo T.C." width={30} />
             </Badge>
             <div className="flex flex-col gap-4 items-center lg:flex-row">
-              <Badge variant="secondary" className="text-primary-foreground lg:text-[14px]">
+              <Badge
+                variant="secondary"
+                className="text-primary-foreground lg:text-[14px]"
+              >
                 Médico Veterinário | SC-14906
               </Badge>
-              <Badge variant="secondary" className="text-primary-foreground lg:text-[14px]">
+              <Badge
+                variant="secondary"
+                className="text-primary-foreground lg:text-[14px]"
+              >
                 Responsável Técnico
               </Badge>
             </div>
@@ -37,12 +43,14 @@ export function HeroSection() {
             </p>
             <div className="flex gap-4">
               <Link href="#">
-                <Button>
+                <Button className="hover:cursor-pointer">
                   <Image src={WhatsAppIcon} alt="WhatsApp Icon" width={15} />
                   Falar no WhatsApp
                 </Button>
               </Link>
-              <Button variant="outline">Conhecer Serviços</Button>
+              <Button variant="outline" className="hover:cursor-pointer">
+                Conhecer Serviços
+              </Button>
             </div>
           </div>
         </div>
