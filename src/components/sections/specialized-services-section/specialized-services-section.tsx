@@ -41,8 +41,10 @@ export function SpecializedServicesSection() {
     <Container>
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-center gap-4">
-          <h2 className="text-3xl font-bold">Serviços Especializados</h2>
-          <p className="text-center text-lg">
+          <h2 className="text-3xl font-bold lg:text-5xl">
+            Serviços Especializados
+          </h2>
+          <p className="text-center text-lg lg:text-2xl">
             Soluções completas para garantir a conformidade e qualidade dos seus
             produtos
           </p>

@@ -17,10 +17,10 @@ export function HeroSection() {
               <Image src={LogoSolo} alt="Logo Solo - Angelo T.C." width={30} />
             </Badge>
             <div className="flex flex-col gap-4 items-center lg:flex-row">
-              <Badge variant="secondary" className="text-primary-foreground">
+              <Badge variant="secondary" className="text-primary-foreground lg:text-[14px]">
                 Médico Veterinário | SC-14906
               </Badge>
-              <Badge variant="secondary" className="text-primary-foreground">
+              <Badge variant="secondary" className="text-primary-foreground lg:text-[14px]">
                 Responsável Técnico
               </Badge>
             </div>
