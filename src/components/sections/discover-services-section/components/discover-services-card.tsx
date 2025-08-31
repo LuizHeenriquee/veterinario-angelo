@@ -23,7 +23,7 @@ export function DiscoverServicesCard({
       </div>
       <h3 className="text-2xl text-center font-bold">{title}</h3>
       <p className="text-center text-lg">{description}</p>
-      <ul className="flex flex-col gap-2">
+      <ul className="flex flex-col gap-2 pl-4 lg:pl-0">
         {list_text.map((text, index) => (
           <li key={index} className="flex items-center gap-2">
             <IconText className="text-primary" />

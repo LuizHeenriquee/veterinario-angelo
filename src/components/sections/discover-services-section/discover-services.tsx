@@ -30,7 +30,8 @@ export function DiscoverServicesSection() {
       list_text: [
         "Planilha de Limpeza e Higienização",
         "Controle de Temperaturas",
-        "Planilhas de Rastreabilidade e Manutenção",
+        "Planilhas de Rastreabilidade de Matéria Prima",
+        "Planilhas de Manutenção de Instalações e Equipamentos",
         "Controle de ASOS",
         "Controle de Pragas",
       ],
@@ -41,7 +42,11 @@ export function DiscoverServicesSection() {
       title: "Rotulagem",
       description: "Consultoria especializada em rotulagem",
       icon_text: CircleCheckBig,
-      list_text: ["Elaboração de Rotulagem", "Correção de Rotulagem"],
+      list_text: [
+        "Elaboração de Rotulagem",
+        "Correção de Rotulagem",
+        "Tabela Nutricional",
+      ],
     },
     {
       id: 4,
