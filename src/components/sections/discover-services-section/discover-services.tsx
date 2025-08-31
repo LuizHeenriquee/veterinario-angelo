@@ -62,7 +62,7 @@ export function DiscoverServicesSection() {
         <div className="flex flex-col items-center gap-4 mt-[56px] mb-4">
           <h1 className="text-3xl font-bold lg:text-5xl">Conhecer Serviços</h1>
           <p className="text-center text-lg lg:text-2xl">
-            Conheça em detalhes cada um dos nossos serviços especializados em
+            Conheça em detalhes cada um dos meus serviços especializados em
             inspeção e segurança de alimentos
           </p>
         </div>
