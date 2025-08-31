@@ -39,7 +39,7 @@ export function HeroSection() {
             <p className="text-center text-xl lg:text-2xl">
               Garantindo a segurança de alimentos através de serviços
               especializados em documentação, controle de qualidade e
-              treinamentos para sua empresa.
+              treinamentos para sua empresa
             </p>
             <div className="flex gap-4">
               <Link href="#">

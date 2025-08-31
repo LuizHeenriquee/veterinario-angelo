@@ -46,7 +46,7 @@ export function SegmentsServed() {
             alimentos
           </p>
         </div>
-        <div className="flex flex-col gap-4 items-center lg:justify-between lg:flex-row">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           {cards.map((card) => (
             <SegmentsCard
               key={card.id}

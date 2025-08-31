@@ -12,7 +12,7 @@ export function CallToActionSection() {
         </h2>
         <p className="text-center text-xl">
           Entre em contato agora e receba uma consultoria personalizada para
-          suas necessidades.
+          suas necessidades
         </p>
       </div>
       <Link href="#">
