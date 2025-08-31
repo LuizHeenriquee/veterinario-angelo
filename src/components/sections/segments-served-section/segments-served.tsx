@@ -7,7 +7,7 @@ export function SegmentsServed() {
     {
       id: 1,
       icon: ShoppingCart,
-      title: "Supermercados",
+      title: "Supermercados/Açougues",
       description:
         "Consultoria especializada para redes de supermercados e estabelecimentos de varejo alimentar",
       icon_text: CircleCheckBig,
@@ -26,8 +26,8 @@ export function SegmentsServed() {
         "Serviços especializados para indústrias que processam produtos de origem animal",
       icon_text: CircleCheckBig,
       list_text: [
-        "Implementação de HACCP",
-        "Adequação às normas do MAPA",
+        "Implementação de HACCP, PACS",
+        "Adequação às normas dos Órgãos Fiscalizadores",
         "Controle de Qualidade Microbiológica",
         "Certificações e Auditorias",
       ],
