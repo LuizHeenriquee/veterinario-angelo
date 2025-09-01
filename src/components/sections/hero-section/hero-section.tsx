@@ -32,9 +32,9 @@ export function HeroSection() {
             </div>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <h1 className="flex flex-col items-center font-extrabold text-4xl lg:text-7xl">
-              <span className="block">Inspeção de Alimentos</span>
-              <span className="block text-primary">com Excelência</span>
+            <h1 className="text-center font-extrabold text-[34px] lg:text-7xl">
+              Inspeção de Alimentos{" "}
+              <span className="text-primary">com Excelência</span>
             </h1>
             <p className="text-center text-xl lg:text-2xl">
               Garantindo a segurança de alimentos através de serviços
