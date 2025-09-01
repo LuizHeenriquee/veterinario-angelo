@@ -15,7 +15,7 @@ export function CallToActionSection() {
           suas necessidades
         </p>
       </div>
-      <Link href="#">
+      <Link href="https://wa.me/5548984318693" target="_blank">
         <Button
           variant="outline"
           className="text-primary hover:text-primary hover:cursor-pointer"

@@ -12,7 +12,7 @@ export function HeaderHomePage() {
         <Link href="/">
           <Image src={Logo} alt="Angelo T.C. Logo" width={150} height={150} />
         </Link>
-        <Link href="#">
+        <Link href="https://wa.me/5548984318693" target="_blank">
           <Button className="hover:cursor-pointer">
             <Image src={WhatsAppIcon} alt="WhatsApp Icon" width={15} />
             WhatsApp

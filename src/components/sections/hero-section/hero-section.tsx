@@ -42,7 +42,7 @@ export function HeroSection() {
               treinamentos para sua empresa
             </p>
             <div className="flex gap-4">
-              <Link href="#">
+              <Link href="https://wa.me/5548984318693" target="_blank">
                 <Button className="hover:cursor-pointer">
                   <Image src={WhatsAppIcon} alt="WhatsApp Icon" width={15} />
                   Falar no WhatsApp
