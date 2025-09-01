@@ -17,16 +17,16 @@ export function DiscoverServicesCard({
   list_text,
 }: Props) {
   return (
-    <Card className="flex flex-col items-center gap-6 min-w-[394px] min-h-[419px] hover:shadow-xl transition-shadow duration-300 ease-in-out lg:p-4 lg:w-full">
+    <Card className="flex flex-col items-center gap-6 min-w-[343.2px] min-h-[475.19px] hover:shadow-xl transition-shadow duration-300 ease-in-out lg:p-4 lg:w-full">
       <div className="border rounded-full p-4">
         <Icon className="text-primary" />
       </div>
       <h3 className="text-2xl text-center font-bold">{title}</h3>
-      <p className="text-center text-lg">{description}</p>
-      <ul className="flex flex-col gap-2 pl-4 lg:pl-0">
+      <p className="text-center text-lg pl-4 pr-4">{description}</p>
+      <ul className="flex flex-col w-full gap-3 pl-4 pr-4">
         {list_text.map((text, index) => (
           <li key={index} className="flex items-center gap-2">
-            <IconText className="text-primary" />
+            <IconText className="text-primary w-[18px] h-[18px] lg:w-[20px] lg:h-[20px]" />
             <p className="text-md">{text}</p>
           </li>
         ))}

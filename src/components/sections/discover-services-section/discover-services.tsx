@@ -28,10 +28,10 @@ export function DiscoverServicesSection() {
       description: "Sistemas de monitoramento e controle de qualidade",
       icon_text: CircleCheckBig,
       list_text: [
-        "Planilha de Limpeza e Higienização",
+        "Limpeza e Higienização",
         "Controle de Temperaturas",
-        "Planilhas de Rastreabilidade de Matéria Prima",
-        "Planilhas de Manutenção de Instalações e Equipamentos",
+        "Rastreabilidade de Matéria Prima",
+        "Manutenção de Instalações e Equipamentos",
         "Controle de ASOS",
         "Controle de Pragas",
       ],
