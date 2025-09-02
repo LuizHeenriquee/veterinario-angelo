@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page - Inspeção de Alimentos
 
-## Getting Started
+Landing page desenvolvida para o veterinário **Angelo Tamanini Cipriani**, especializado em **inspeção de alimentos**.
+O objetivo do projeto é destacar seus serviços, detalhar cada especialidade, apresentar os segmentos atendidos e oferecer uma forma prática de contato direto com o cliente via WhatsApp.
 
-First, run the development server:
+## 🚀 Demonstração
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [Acesse o site](https://veterinario-angelo.vercel.app/)
+📂 [Repositório no GitHub](https://github.com/LuizHeenriquee/veterinario-angelo)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Preview da Landing Page](https://github.com/user-attachments/assets/3337ccf0-5056-4c61-86aa-edc651bb0ae1)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Apresentação clara dos serviços e detalhamento de cada especialidade
+- Destaque dos segmentos atendidos
+- Botões de contato direto via WhatsApp
+- Design responsivo e otimizado
 
-## Learn More
+## 🛠️ Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn/UI](https://ui.shadcn.com/)
+- [Vercel](https://vercel.com/) – Deploy e Hospedagem
