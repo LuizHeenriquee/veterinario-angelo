@@ -5,8 +5,7 @@ O objetivo do projeto é destacar seus serviços, detalhar cada especialidade, a
 
 ## 🚀 Demonstração
 
-🔗 <a href="https://veterinario-angelo.vercel.app/" target="_blank">Acesse o site</a>  
-📂 <a href="https://github.com/LuizHeenriquee/veterinario-angelo" target="_blank">Repositório no GitHub</a>
+🔗 [Acesse o site](https://veterinario-angelo.vercel.app/)   📂 [Repositório no GitHub](https://github.com/LuizHeenriquee/veterinario-angelo)
 
 ![Preview da Landing Page](https://github.com/user-attachments/assets/3337ccf0-5056-4c61-86aa-edc651bb0ae1)
 
