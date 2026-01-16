@@ -8,7 +8,8 @@ export function CallToActionSection() {
     <div className="flex flex-col items-center gap-4 bg-primary text-primary-foreground p-4 pt-7 pb-7 lg:pt-14 lg:pb-14">
       <div className="flex flex-col items-center gap-4">
         <h2 className="text-center text-2xl font-bold lg:text-4xl">
-          Pronto para garantir a segurança dos seus alimentos?
+          Pronto para regularizar seu estabelecimento e atender às exigências da
+          fiscalização?
         </h2>
         <p className="text-center text-xl">
           Entre em contato agora e receba uma consultoria personalizada para
